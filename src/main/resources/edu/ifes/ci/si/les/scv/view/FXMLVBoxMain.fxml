@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ifes.ci.si.les.scv.controller.FXMLVBoxMainController">
+    <children>
+        <MenuBar>
+            <menus>
+                <Menu mnemonicParsing="false" text="Cadastros">
+                    <items>
+                        <MenuItem fx:id="menuItemCadastrosUfs" mnemonicParsing="false" onAction="#handleMenuItemCadastrosUfs" text="Ufs" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Processos">
+                    <items>
+                        <MenuItem fx:id="menuItemProcessosEmprestimos" mnemonicParsing="false" onAction="#handleMenuItemProcessosEmprestimos" text="Empréstimos" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Gráficos">
+                </Menu>
+                <Menu mnemonicParsing="false" text="Relatórios">
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane fx:id="anchorPane" prefHeight="376.0" prefWidth="600.0" />
+    </children>
+</VBox>

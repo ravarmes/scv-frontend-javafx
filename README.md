@@ -4,7 +4,7 @@
 
 
 ## Tela(s)
-![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-javafx/blob/master/images/tela1.png)
+![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-javafx/blob/master/images/tela1.gif)
 
 ## Contato
 

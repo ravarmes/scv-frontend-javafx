@@ -1,23 +1,9 @@
-## Comandos para Utilização desta Aplicação Frontend
-
-- Instale a JDK
-
-
-## Tela(s)
-![Tela Empréstimo](https://github.com/ravarmes/scv-frontend-javafx/blob/master/images/tela1.gif)
-
-## Contato
-
-- Email: ravarmes@hotmail.com
-
-
-
 <h1 align="center">
     <img alt="RVM" src="https://github.com/ravarmes/scv-frontend-react-redux/blob/master/public/images/logos/rvm2.jpg" />
 </h1>
 
 <h3 align="center">
-  Sistema de Controle da Videolocadora - FrontEnd - React e Redux
+  Sistema de Controle da Videolocadora - FrontEnd - JavaFX
 </h3>
 
 <p align="center">Exemplo de um Sistema para Gerenciamento de Locadora</p>

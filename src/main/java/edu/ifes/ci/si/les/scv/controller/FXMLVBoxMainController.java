@@ -12,8 +12,6 @@ import javafx.scene.layout.AnchorPane;
 public class FXMLVBoxMainController implements Initializable {
     
     @FXML
-    private MenuItem menuItemCadastrosUfs;
-    @FXML
     private AnchorPane anchorPane;
 
     @Override
@@ -28,6 +26,16 @@ public class FXMLVBoxMainController implements Initializable {
     
     public void handleMenuItemProcessosEmprestimos() throws IOException {
         AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/edu/ifes/ci/si/les/scv/view/FXMLAnchorPaneProcessosEmprestimos.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+    
+    public void handleMenuItemRelatoriosEmprestimosPorClientePeriodo() throws IOException {
+    	AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/edu/ifes/ci/si/les/scv/view/FXMLAnchorPaneRelatoriosEmprestimosPorClientePeriodo.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+    
+    public void handleMenuItemRelatoriosEmprestimosPorClienteTotalQuantidade() throws IOException {
+    	AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/edu/ifes/ci/si/les/scv/view/FXMLAnchorPaneRelatoriosEmprestimosPorClienteTotalQuantidade.fxml"));
         anchorPane.getChildren().setAll(a);
     }
 

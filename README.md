@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="RVM" src="https://github.com/ravarmes/scv-frontend-javafx/blob/master/imagens/logo.jpg" />
+    <img alt="RVM" src="https://github.com/ravarmes/scv-frontend-javafx/blob/master/images/logo.jpg" />
 </h1>
 
 <h3 align="center">
